@@ -1,3 +1,1 @@
-# react-minimal template
-- npm install
-- npm run start:dev
+Deployed with Heroku: https://charles-acme-favorites-spa.herokuapp.com/

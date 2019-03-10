@@ -38,10 +38,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cazmitia/react-minimal-template.git"
+    "url": "git+https://github.com/cazmitia/Acme-Favorites-Spa"
   },
   "bugs": {
-    "url": "https://github.com/cazmitia/react-minimal-template/issues"
+    "url": "https://github.com/cazmitia/Acme-Favorites-Spa/issues"
   },
-  "homepage": "https://github.com/cazmitia/react-minimal-template#readme"
+  "homepage": "https://github.com/cazmitia/Acme-Favorites-Spa#readme"
 }
