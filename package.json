@@ -1,16 +1,21 @@
 {
   "name": "react-basic-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "- npm install - npm run start:dev",
   "main": "db.js",
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "express": "^4.16.4",
+    "pg": "^7.8.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "sequelize": "^4.43.0",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3"
   },
@@ -30,5 +35,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cazmitia/react-minimal-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cazmitia/react-minimal-template/issues"
+  },
+  "homepage": "https://github.com/cazmitia/react-minimal-template#readme"
 }
