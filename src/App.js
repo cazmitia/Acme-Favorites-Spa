@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { HashRouter, Route, Redirect } from 'react-router-dom'
 import Users from './Users'
-import Things from './things'
+import Things from './Things'
 import Navbar from './Navbar'
 import axios from 'axios'
 
