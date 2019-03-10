@@ -7,9 +7,9 @@ const Users = ({users}) => {
                 <li key={user.id}>
                     {user.name}
                     <ul>
-                    {user.favorites.map(favorite => (
+                        {user.favorites.map(favorite => (
                             <li key={favorite.id}>{favorite.thing.name} (ranked: {favorite.rank})</li>
-                        )) }
+                        ))}
                     </ul>
                 </li>
             ))}

@@ -2,7 +2,6 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const Navbar = ({users, things}) => {
-
     return (
         <nav>
             <ul className="nav nav-pills">

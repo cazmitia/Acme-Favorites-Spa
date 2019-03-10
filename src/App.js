@@ -15,12 +15,12 @@ export default class App extends Component {
     }
 
     componentDidMount() {
-        axios.get('/api/things')
-        .then(response => response.data)
-        .then(things => this.setState({things}))
-        .then(() => axios.get('/api/users'))
-        .then(response => response.data)
-        .then(users => this.setState({users}))
+        axios.all([
+            axios.get('/api/things'),
+            axios.get('/api/users')
+        ])
+        .then(([thingsResponse, usersResponse]) =>  [thingsResponse.data, usersResponse.data])
+        .then(([things, users]) => this.setState({things, users}))
     }
 
     render () {
